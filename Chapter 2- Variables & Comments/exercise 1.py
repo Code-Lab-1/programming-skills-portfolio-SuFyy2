@@ -1,4 +1,4 @@
-msg = "I love learning to use Python."
+msg = "hello world!"
 print(msg)
-msg = "It's really satisfying!"
+msg = "good morning!"
 print(msg)
