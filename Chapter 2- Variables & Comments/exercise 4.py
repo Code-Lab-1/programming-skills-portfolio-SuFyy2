@@ -1,4 +1,3 @@
-fav_num = 50
-msg = f"My favorite number is {fav_num}."
-
+a = 50
+msg = f"My favorite number is {a}."
 print(msg)
