@@ -1,9 +1,9 @@
-name = "john"
+name = "\tMuhammed sufiyan\n"
 print("Unmodified:")
 print(name)
-print("Using lstrip():")
+print("\nUsing lstrip():")
 print(name.lstrip())
-print("Using rstrip():")
+print("\nUsing rstrip():")
 print(name.rstrip())
-print("Using strip():")
+print("\nUsing strip():")
 print(name.strip())
