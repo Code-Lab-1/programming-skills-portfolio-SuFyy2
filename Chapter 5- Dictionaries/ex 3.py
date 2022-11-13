@@ -1,3 +1,4 @@
+#ex-3
 glossary = {
     'string': 'A series of characters.',
     'comment': 'A note in a program that the Python interpreter ignores.',
@@ -10,5 +11,6 @@ glossary = {
     'float': 'A numerical value with a decimal component.',
     'boolean expression': 'An expression that evaluates to True or False.',
     }
+
 for word, definition in glossary.items():
     print("\n" + word.title() + ": " + definition)
