@@ -1,6 +1,6 @@
 #ex-1
-prompt = "\nWhat topping would you like on your pizza?"
-prompt += "\nEnter 'quit' when you are finished: "
+prompt = "What topping would you like on your pizza?\n"
+prompt += "\nEnter 'quit' when you are finished: \n"
 
 while True:
     topping = input(prompt)

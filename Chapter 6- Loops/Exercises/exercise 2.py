@@ -1,4 +1,4 @@
-ex-2
+#ex-2
 while True:
   age=int(input("Enter your age: "))
   age=int(age)
