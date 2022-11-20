@@ -1,0 +1,11 @@
+#2.6
+a="""Hi
+how
+are
+you?"""
+print(a)
+#(or)
+print("""\nHi
+how
+are
+you?""")
