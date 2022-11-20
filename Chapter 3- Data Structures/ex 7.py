@@ -1,8 +1,33 @@
 #3.7
-my_list = [1, 2, 3, 'example', 3.132, 10, 30]
-for element in my_list: 
-    print(element)
-print(my_list) 
-print(my_list[3]) 
-print(my_list[0:2])
-print(my_list[::-1]) 
+locations = ['himalaya', 'andes', 'tierra del fuego', 'labrador', 'guam']
+
+print("Original order:")
+print(locations)
+
+print("\nAlphabetical:")
+print(sorted(locations))
+
+print("\nOriginal order:")
+print(locations)
+
+print("\nReverse alphabetical:")
+print(sorted(locations, reverse=True))
+
+print("\nOriginal order:")
+print(locations)
+
+print("\nReversed:")
+locations.reverse()
+print(locations)
+
+print("\nOriginal order:")
+locations.reverse()
+print(locations)
+
+print("\nAlphabetical")
+locations.sort()
+print(locations)
+
+print("\nReverse alphabetical")
+locations.sort(reverse=True)
+print(locations)
